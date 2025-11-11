@@ -156,5 +156,3 @@ Special thanks to AppDost HR Team for the Full Stack Developer Internship assign
    git add README.md
    git commit -m "Add final README for submission"
    git push
-
-✅ Done — your GitHub repo will now look professional and ready for submission.
