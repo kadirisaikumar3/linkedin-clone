@@ -9,7 +9,7 @@ export default function Signup({ onAuth }) {
 
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async e => {
     e.preventDefault();
     setErr('');
     try {
@@ -22,7 +22,7 @@ export default function Signup({ onAuth }) {
     } catch (error) {
       setErr(error.response?.data?.message || 'Signup failed');
     }
-  }
+  };
 
   return (
     <div className="container">

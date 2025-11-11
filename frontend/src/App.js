@@ -5,9 +5,10 @@ import Login from './components/Login';
 import Feed from './components/Feed';
 import Navbar from './components/Navbar';
 import CreatePost from './components/CreatePost';
+import Profile from './components/Profile';
 import { setAuthToken } from './api';
 
-function App(){
+function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -24,7 +25,7 @@ function App(){
     localStorage.removeItem('linkedin_user');
     setAuthToken(null);
     setUser(null);
-  }
+  };
 
   return (
     <Router>
@@ -35,6 +36,7 @@ function App(){
           <Route path="/signup" element={<Signup onAuth={u => setUser(u)} />} />
           <Route path="/login" element={<Login onAuth={u => setUser(u)} />} />
           <Route path="/create" element={user ? <CreatePost user={user} /> : <Navigate to="/login" />} />
+          <Route path="/profile" element={user ? <Profile user={user} /> : <Navigate to="/login" />} />
         </Routes>
       </div>
     </Router>

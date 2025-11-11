@@ -10,7 +10,7 @@ export default function Navbar({ user, onLogout }) {
       <div>
         {user ? (
           <>
-            <span style={{ marginRight: 12 }}>Hi, {user.name}</span>
+            <Link to="/profile" style={{ marginRight: 12 }}>{user.name}</Link>
             <Link to="/create" style={{ marginRight: 8 }}>Create</Link>
             <button onClick={onLogout}>Logout</button>
           </>
