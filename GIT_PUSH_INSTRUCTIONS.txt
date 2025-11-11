@@ -1,0 +1,7 @@
+# Git commands to push to GitHub (run from the project root folder)
+git init
+git add .
+git commit -m "Initial commit: LinkedIn clone (backend + frontend)"
+git branch -M main
+git remote add origin https://github.com/kadirisaikumar3/linkedin-clone.git
+git push -u origin main
