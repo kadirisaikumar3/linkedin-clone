@@ -135,7 +135,7 @@ linkedin-clone/
 Saikumar Kadiri
 📍 Bengaluru, India
 📞 +91 8688077239
-📧 saikumarkadirik@gmail.com
+📧 saikumar.kadiri30@gmail.com
 🔗https://github.com/kadirisaikumar3
 
 ### 🏁 Acknowledgments
