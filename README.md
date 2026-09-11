@@ -75,12 +75,12 @@ npm install
 
 Create a .env file in the backend folder with:
 
-PORT=5000
-MONGO_URI=mongodb+srv://saikumarkadiri30_db_user:XyeCPenMXvGrZMQE@linkedincluster.928out1.mongodb.net/linkedin?appName=linkedinCluster
-JWT_SECRET=mysecret123
-CLOUDINARY_CLOUD_NAME=linkedinmedia
-CLOUDINARY_API_KEY=123456789012345
-CLOUDINARY_API_SECRET=AbCdEfGhIjKlMnOpQrStUvWxYz
+PORT=Your Port Number
+MONGO_URI=Your Mongo_Uri link
+JWT_SECRET=Your Jwt_Secret
+CLOUDINARY_CLOUD_NAME=Your Cloudinary_Cloud_Name
+CLOUDINARY_API_KEY= Your Cloudinary_Api_Key
+CLOUDINARY_API_SECRET=Your Cloudinary_Api_Secret
 
 Then start the server:
 npm run dev
